@@ -32,6 +32,7 @@ The weather webpart can be configured with the following properties
 5. Add the webpart weather in a section column of your choice.
 
 # Deployment
+1. Run npm install
 1. Run npm build
 2. Run npm bundle --ship
 3. Run package-solution --ship
