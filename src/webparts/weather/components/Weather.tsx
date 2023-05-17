@@ -72,10 +72,17 @@ export const Weather = (props: IWeatherProps): JSX.Element => {
     }
     if(!props.cityOrZip){
       setApiDescription(configurations.APIDescriptionLocationType)
+      setShowPlaceholder(true)
+      return
+    }
+    if(!props.location || props.location===""){
+      setApiDescription(configurations.APIDescriptionInvalidLocation)
+      setShowPlaceholder(true)
       return
     }
     if(!props.temperatureUnits){
       setApiDescription(configurations.APIDescriptionUnits)
+      setShowPlaceholder(true)
       return
     }
     //if all conditions are met, it will check if the location is valid
