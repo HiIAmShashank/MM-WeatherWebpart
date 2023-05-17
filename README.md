@@ -17,6 +17,10 @@ The webpart provides a configuration screen that will help you in creating an AP
 | Every SPFx version is only compatible with specific version(s) of Node.js. In order to be able to build this sample, please ensure that the version of Node on your workstation matches one of the versions listed in this section. This sample will not work on a different version of Node.|
 |Refer to <https://aka.ms/spfx-matrix> for more information on SPFx compatibility.   |
 
+![SPFx 1.17.2](https://img.shields.io/badge/SPFx-1.17.2-green.svg)
+![Node.js v16](https://img.shields.io/badge/Node.js-v16-green.svg) 
+![Compatible with SharePoint Online](https://img.shields.io/badge/SharePoint%20Online-Compatible-green.svg)
+
 # How to use this web part on your web pages
 1. Place the page you want to add this web part to in edit mode.
 3. Search for and insert the Weather web part.
